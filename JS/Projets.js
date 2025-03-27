@@ -5,7 +5,7 @@ let projets;
 document.addEventListener('DOMContentLoaded', loadProjects);
 
 function loadProjects(event) {
-    fetch('json/Projets.json')
+    fetch('https://baptiste-ro.github.io/portfolio/json/Projets.json')
         .then(data => data.json())
         .then(projects => {
 
