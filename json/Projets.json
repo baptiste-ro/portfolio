@@ -2,6 +2,7 @@
     {
         "titre": "Algorithme de classification de données",
         "description": "Projet de création d’algorithme visant à classer, selon certaines caractéristiques, des données à l’aide d’un jeu de données.",
+        "date": "2024",
         "url": "https://gitlab.univ-lille.fr/sae302/2024/J3_SAE3.3",
         "imageURL": "./Images/Classification.jpg",
         "altImage": "Algorithme de classification de données"
