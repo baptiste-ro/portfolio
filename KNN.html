@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="generator" content="Astro v4.16.17">
+  <title>Recherche du plus court itinéraire</title>
+  <meta name="description"
+        content="Projet visant à trouver le chemin le plus court parmi un graphe de routes, ainsi qu'un jeu de données. Ce jeu de données contient les valeurs des routes.">
+  <meta property="og:title" content="Recherche du plus court itinéraire">
+  <meta property="og:description"
+        content="Projet visant à trouver le chemin le plus court parmi un graphe de routes, ainsi qu'un jeu de données. Ce jeu de données contient les valeurs des routes.">
+  <meta property="og:image" content="/Knn.png">
+  <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+  <header>
+    <div class="px-6 py-6 max-w-2xl mx-auto flex items-center justify-between">
+      <a href="./default.php">
+        <img src="./photo.jpg" data-image-component="true" alt="Logo" class="w-[50px] h-[50px] object-cover" width="50" height="100" loading="lazy" decoding="async">
+      </a>
+      <nav class="ml-auto mr-6 sm:m-0">
+        <ul class="hidden sm:flex sm:items-center sm:gap-2">
+          <li>
+            <a class="group px-4 py-2 rounded-lg hover:bg-gray-bg opacity-60 hover:opacity-100 transition-all" href="./default.php" target="_self"> Accueil </a>
+          </li>
+          <li>
+            <a class="group px-4 py-2 rounded-lg hover:bg-gray-bg opacity-60 hover:opacity-100 transition-all" href="./Projets.php" target="_self"> Projets </a>
+          </li>
+          <li>
+            <a class="group px-4 py-2 rounded-lg hover:bg-gray-bg opacity-60 hover:opacity-100 transition-all" href="./Parcours.php" target="_self"> Parcours </a>
+          </li>
+          <li>
+            <a class="group px-4 py-2 rounded-lg hover:bg-gray-bg opacity-60 hover:opacity-100 transition-all" href="./Contact.php" target="_self"> Contact </a>
+          </li>
+        </ul>
+        <div class="relative sm:hidden">
+          <button id="link-menu-button" class="relative font-medium opacity-60 p-4">Menu 
+            <span id="open-indicator">+</span>
+          </button>
+          <div id="link-menu" class="absolute p-2 right-0 bg-gray-bg rounded-lg w-44 transition-opacity ease-in-out duration-300 opacity-0 z-40">
+            <ul>
+              <li>
+                <a class="block pl-4 py-3" href="./default.php" target="_self"> Accueil </a>
+              </li>
+              <li>
+                <a class="block pl-4 py-3" href="./Projets.php" target="_self"> Projets </a>
+              </li>
+              <li>
+                <a class="block pl-4 py-3" href="./Parcours.php" target="_self"> Parcours </a>
+              </li>
+              <li>
+                <a class="block pl-4 py-3" href="./Contact.php" target="_self"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div >
+        <a href="mailto:baptisteroyer74@gmail.com" class="block p-2 opacity-60 hover:opacity-100 transition-opacity" aria-label="Email">
+          <svg width="20" height="20" data-icon="mdi:email">
+            <symbol id="ai:mdi:email" viewBox="0 0 24 24">
+              <path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/>
+            </symbol>
+            <use href="#ai:mdi:email"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="mb-32">
+    <section class="mt-10 max-w-2xl mx-auto px-6">
+      <h1 class="font-bold text-3xl mb-4">Recherche du plus court itinéraire</h1>
+      <p class="opacity-60 mb-6">
+        Projet visant à trouver le chemin le plus court parmi un graphe de routes,
+        ainsi qu&#39;un jeu de données. Ce jeu de données contient les valeurs des routes. 
+      </p>
+      <div class="flex gap-4 mb-6">
+        <div>
+          <p class="font-medium">Royer Baptiste</p>
+          <p class="opacity-60"> 6/19/2024 · 0 min read </p>
+        </div>
+      </div>
+      <a href="https://gitlab.univ-lille.fr/sae2.01-2.02/2024/D4" class="">https://gitlab.univ-lille.fr/sae2.01-2.02/2024/D4</a>
+      <article class="prose prose-invert prose-a:text-blue-300 prose-a:underline-offset-4 prose-headings:mb-2 prose-p:text-[#b3b3b3]">
+        <br>
+        <img src="./Knn.png" data-image-component="true" alt="/Knn.png" class="rounded-lg w-[800px] h-[500px] object-cover" width="800" height="500" loading="lazy" decoding="async">
+      </article>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
