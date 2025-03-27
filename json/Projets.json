@@ -6,5 +6,45 @@
         "url": "https://gitlab.univ-lille.fr/sae302/2024/J3_SAE3.3",
         "imageURL": "./Images/Classification.jpg",
         "altImage": "Algorithme de classification de données"
+    },
+    {
+        "titre": "Quizemon",
+        "description": "Jeu de duel au tour par tour sur des sujets scholaires.",
+        "date": "2023",
+        "url": "https://github.com/Wyverpom/Quizemon",
+        "imageURL": "./Images/Quizemon.png",
+        "altImage": "Quizemon"
+    },
+    {
+        "titre": "Installation d&#39;une Machine Virtuelle",
+        "description": "Projet visant à aider à l’installation d’une machine virtuelle sur un environnement Linux.",
+        "date": "2024",
+        "url": "https://gitlab.univ-lille.fr/baptiste.royer.etu/rapport-sae-reseau",
+        "imageURL": "./Images/VM.png",
+        "altImage": "Installation d&#39;une Machine Virtuelle"
+    },
+    {
+        "titre": "Recherche du plus court itinéraire",
+        "description": "Projet visant à trouver le chemin le plus court parmi un graphe de routes, ainsi qu’un jeu de données. Ce jeu de données contient les valeurs des routes.",
+        "date": "2024",
+        "url": "https://gitlab.univ-lille.fr/sae2.01-2.02/2024/D4",
+        "imageURL": "./Images/Classification.jpg",
+        "altImage": "Algorithme de classification de données"
+    },
+    {
+        "titre": "Maquette site LanguePartage",
+        "description": "Maquette d'un site permettant à des étudiants de proposer leurs services en tant que professeur de langue à n'importe qui en échange d'une rémunération.",
+        "date": "2024",
+        "url": "https://github.com/baptiste-ro/Site-GPO",
+        "imageURL": "./Images/LanguePartage.png",
+        "altImage": "Maquette site LanguePartage"
+    },
+    {
+        "titre": "RPG Projet Agile",
+        "description": "Projet d'introduction à la méthode de travaille \"AGILE\". Il s'agit d'un RPG qui a été réalisé avec la méthode \"AGILE\", et où le but est d'avancer à travers une courte histoire en battant des monstres.",
+        "date": "2024",
+        "url": "https://github.com/baptiste-ro/RPG_Projet_Agile",
+        "imageURL": "./Images/LegendOfWarImg.png",
+        "altImage": "RPG Projet Agile"
     }
 ]
