@@ -28,7 +28,7 @@
         "description": "Projet visant à trouver le chemin le plus court parmi un graphe de routes, ainsi qu’un jeu de données. Ce jeu de données contient les valeurs des routes.",
         "date": "2024",
         "url": "https://gitlab.univ-lille.fr/sae2.01-2.02/2024/D4",
-        "imageURL": "./Images/Classification.jpg",
+        "imageURL": "./Images/Knn.png",
         "altImage": "Algorithme de classification de données"
     },
     {
@@ -46,5 +46,13 @@
         "url": "https://github.com/baptiste-ro/RPG_Projet_Agile",
         "imageURL": "./Images/LegendOfWarImg.png",
         "altImage": "RPG Projet Agile"
+    },
+    {
+        "titre": "Projet d'application de Chat",
+        "description": "Projet visant à créer une application de chat, type réseau social, en utilisant des fichier .jsp, des fichiers .java, ainsi qu'une base de données PostgreSQL.",
+        "date": "2024",
+        "url": "https://github.com/baptiste-ro/RPG_Projet_Agile",
+        "imageURL": "./Images/ChatApp.png",
+        "altImage": "Projet d'application de Chat"
     }
 ]
